@@ -1,0 +1,3 @@
+[console_scripts]
+task = cli_task_manager.cli:app
+task-daemon = cli_task_manager.daemon:main
