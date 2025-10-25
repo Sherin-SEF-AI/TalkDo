@@ -5,7 +5,7 @@ This package provides a comprehensive task management system with natural langua
 processing capabilities, recurring tasks, reminders, and cross-platform support.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "CLI Task Manager Team"
 __email__ = "team@cli-task-manager.dev"
 __license__ = "MIT"
