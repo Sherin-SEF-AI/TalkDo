@@ -2,6 +2,21 @@
 
 **Talkdo** is a revolutionary command-line task management application that lets you manage your tasks using natural language. Just talk to your to-dos and watch the magic happen!
 
+## 👨‍💻 **About the Creator**
+
+**Talkdo** is developed by **Sherin Joseph Roy**, Co-Founder & Head of Products at [DeepMost AI](https://deepmost.ai), where we're building enterprise AI systems that connect data, automation, and intelligence to solve real-world challenges. Passionate about bridging research and application, Sherin focuses on creating scalable, human-centered AI solutions that redefine how organizations think, decide, and grow.
+
+### 🔗 **Connect with the Creator**
+- **🌐 Website**: [sherinjosephroy.link](https://sherinjosephroy.link)
+- **🐦 Twitter/X**: [@SherinSEF](https://x.com/SherinSEF)
+- **💼 LinkedIn**: [linkedin.com/in/sherin-roy-deepmost](https://www.linkedin.com/in/sherin-roy-deepmost)
+- **🐘 Mastodon**: [@sherinjoesphroy](https://mastodon.social/@sherinjoesphroy)
+- **💻 GitHub**: [github.com/Sherin-SEF-AI](https://github.com/Sherin-SEF-AI)
+- **📧 Contact**: [sherinjosephroy.link/contact](https://sherinjosephroy.link/contact)
+
+### 🏢 **About DeepMost AI**
+DeepMost AI is an innovative AI company based in Bangalore, India, specializing in enterprise AI solutions. We focus on creating intelligent systems that help organizations make better decisions through data-driven insights and automation.
+
 ## ✨ **Why Talkdo?**
 
 - **🗣️ Natural Language**: Just say what you want to do - "buy milk tomorrow at 3pm"
@@ -170,7 +185,7 @@ talkdo security-status
 
 ## 🤝 **Community & Support**
 
-- **GitHub**: [github.com/talkdo/talkdo](https://github.com/talkdo/talkdo)
+- **GitHub**: [github.com/Sherin-SEF-AI/TalkDo](https://github.com/Sherin-SEF-AI/TalkDo)
 - **Issues**: Bug reports and feature requests
 - **Discussions**: Community support and ideas
 - **Discord**: Real-time community chat
@@ -212,6 +227,69 @@ talkdo security-status
 
 ---
 
+## 🔍 **SEO & Keywords**
+
+**Talkdo** - Natural Language Task Management, CLI Productivity Tool, Command Line Task Manager, AI-Powered Task Management, Developer Productivity, Terminal Task Management, Voice-to-Task, Natural Language Processing CLI, Python CLI Tool, Task Automation, Productivity Analytics, Enterprise Task Management, Cross-Platform CLI, Open Source Task Manager, Bangalore AI Developer, DeepMost AI, Sherin Joseph Roy
+
+### 📊 **Technical Keywords**
+- Natural Language Processing (NLP)
+- Command Line Interface (CLI)
+- Task Management System
+- Productivity Software
+- Python Application
+- Cross-Platform Tool
+- Enterprise Software
+- AI-Powered Automation
+- Developer Tools
+- Open Source Software
+
+### 🏷️ **Tags & Categories**
+`#TaskManagement` `#CLI` `#Productivity` `#NaturalLanguage` `#Python` `#AI` `#DeveloperTools` `#OpenSource` `#Enterprise` `#CrossPlatform` `#Bangalore` `#DeepMostAI` `#SherinJosephRoy`
+
+---
+
+## 📈 **Structured Data for Google Knowledge Graph**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Talkdo",
+  "description": "Revolutionary command-line task management application with natural language processing",
+  "url": "https://github.com/Sherin-SEF-AI/TalkDo",
+  "applicationCategory": "ProductivityApplication",
+  "operatingSystem": ["Windows", "macOS", "Linux"],
+  "programmingLanguage": "Python",
+  "license": "MIT",
+  "author": {
+    "@type": "Person",
+    "name": "Sherin Joseph Roy",
+    "jobTitle": "Co-Founder & Head of Products",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "DeepMost AI",
+      "url": "https://deepmost.ai"
+    },
+    "url": "https://sherinjosephroy.link",
+    "sameAs": [
+      "https://x.com/SherinSEF",
+      "https://linkedin.com/in/sherin-roy-deepmost",
+      "https://github.com/Sherin-SEF-AI"
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "task management, CLI, natural language processing, productivity, Python, AI, developer tools"
+}
+```
+
+---
+
 **Talkdo - Where productivity meets natural language** 🗣️
 
 *Just talk to your to-dos and watch them come to life!*
+
+**Developed by [Sherin Joseph Roy](https://sherinjosephroy.link) | [DeepMost AI](https://deepmost.ai) | Bangalore, India**
