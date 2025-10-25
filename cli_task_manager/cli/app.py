@@ -26,7 +26,6 @@ from cli_task_manager.core.analytics import ProductivityAnalytics
 from cli_task_manager.core.themes import ThemeManager, ThemeType
 from cli_task_manager.core.sync import SyncManager
 from cli_task_manager.core.security import SecurityManager
-from cli_task_manager.core.mobile import MobileCompanion
 from cli_task_manager.models.task import Task, TaskPriority, TaskStatus
 from cli_task_manager.models.project import Project, ProjectStatus
 from cli_task_manager.models.tag import Tag
@@ -53,7 +52,6 @@ _analytics: Optional[ProductivityAnalytics] = None
 _theme_manager: Optional[ThemeManager] = None
 _sync_manager: Optional[SyncManager] = None
 _security_manager: Optional[SecurityManager] = None
-_mobile_companion: Optional[MobileCompanion] = None
 
 
 def get_config() -> Config:
@@ -131,12 +129,6 @@ def get_security_manager() -> SecurityManager:
     return _security_manager
 
 
-def get_mobile_companion() -> MobileCompanion:
-    """Get or create mobile companion."""
-    global _mobile_companion
-    if _mobile_companion is None:
-        _mobile_companion = MobileCompanion(get_database(), get_config())
-    return _mobile_companion
 
 
 def format_task(task: Task, show_id: bool = False) -> str:
@@ -936,45 +928,6 @@ def security_enable_encryption(
         raise typer.Exit(1)
 
 
-# Mobile Commands
-@app.command()
-def mobile_qr(
-    output_path: str = typer.Option("mobile_qr.png", "--output", "-o", help="Output QR code file")
-):
-    """Generate QR code for mobile app connection."""
-    try:
-        mobile = get_mobile_companion()
-        qr_path = Path(output_path)
-        
-        if mobile.generate_mobile_qr(qr_path):
-            console.print(f"[green]✅ QR code generated: {qr_path}[/green]")
-        else:
-            console.print("[red]❌ QR code generation failed[/red]")
-            raise typer.Exit(1)
-        
-    except Exception as e:
-        console.print(f"[red]Mobile QR generation failed: {e}[/red]")
-        raise typer.Exit(1)
-
-
-@app.command()
-def mobile_export(
-    output_path: str = typer.Argument(..., help="Output file path")
-):
-    """Export data for mobile app."""
-    try:
-        mobile = get_mobile_companion()
-        output_file = Path(output_path)
-        
-        if mobile.create_mobile_backup(output_file):
-            console.print(f"[green]✅ Mobile export created: {output_file}[/green]")
-        else:
-            console.print("[red]❌ Mobile export failed[/red]")
-            raise typer.Exit(1)
-        
-    except Exception as e:
-        console.print(f"[red]Mobile export failed: {e}[/red]")
-        raise typer.Exit(1)
 
 
 # Sync Commands

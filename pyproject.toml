@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "talkdo"
-version = "1.0.0"
+version = "1.0.1"
 description = "Talkdo - Talk your to-dos. A professional CLI task manager with natural language processing"
 readme = "README.md"
 license = {text = "MIT"}
@@ -44,10 +44,8 @@ dependencies = [
     "python-dateutil>=2.8.0",
     "schedule>=1.2.0",
     "psutil>=5.9.0",
-    "qrcode>=7.4.0",
     "cryptography>=41.0.0",
     "requests>=2.31.0",
-    "pillow>=10.0.0",
 ]
 
 [project.optional-dependencies]

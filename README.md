@@ -22,7 +22,6 @@ DeepMost AI is an innovative AI company based in Bangalore, India, specializing 
 - **🗣️ Natural Language**: Just say what you want to do - "buy milk tomorrow at 3pm"
 - **🧠 Smart Parsing**: 90%+ accuracy in understanding your intent
 - **🎨 Beautiful Interface**: Rich terminal output with professional themes
-- **📱 Mobile Ready**: QR codes and mobile companion features
 - **🔒 Secure**: Enterprise-grade encryption and privacy
 - **⚡ Fast**: Lightning-fast performance with sub-second response times
 
@@ -80,10 +79,6 @@ talkdo search "production"
 - **Audit Logging**: Track all security-related actions
 - **Privacy First**: All data stays on your machine
 
-### 📱 **Mobile Integration**
-- **QR Code Generation**: Instant mobile app connection
-- **Mobile Export**: Optimized data format for mobile apps
-- **Cross-Device Sync**: Seamless synchronization
 
 ### 🔄 **Sync & Export**
 - **Multiple Formats**: JSON, CSV, Markdown, Todo.txt, iCalendar
@@ -103,7 +98,6 @@ talkdo search "production"
 - `talkdo analytics` - Productivity analytics and insights
 - `talkdo export` - Export tasks to various formats
 - `talkdo theme-list` - List available themes
-- `talkdo mobile-qr` - Generate QR code for mobile
 - `talkdo sync-status` - Show synchronization status
 
 ## 🎨 **Themes**
@@ -146,14 +140,6 @@ talkdo export tasks.md --format markdown
 talkdo import-data backup.json --format json
 ```
 
-### Mobile Integration
-```bash
-# Generate QR code for mobile app
-talkdo mobile-qr
-
-# Export for mobile
-talkdo mobile-export mobile_data.json
-```
 
 ### Security
 ```bash

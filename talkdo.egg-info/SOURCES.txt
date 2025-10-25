@@ -11,7 +11,6 @@ cli_task_manager/core/analytics.py
 cli_task_manager/core/config.py
 cli_task_manager/core/database.py
 cli_task_manager/core/exporter.py
-cli_task_manager/core/mobile.py
 cli_task_manager/core/parser.py
 cli_task_manager/core/security.py
 cli_task_manager/core/sync.py
